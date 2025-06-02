@@ -10,11 +10,13 @@ public class Main {
         testFactorialGivenRightArgument1RunWell();
         testFactorialGivenRightArgumentRunWell();
     }
+
+    //testcase 3: check/verify the GETFACTORIAL()
     public static void testFactorialGivenRightArgumentRunWell() {
         System.out.println("2! expected: 2:  + actual: " + MathUtility.getFactorial(2));
-        System.out.println("3! expected: 6:  + actual: " + MathUtility.getFactorial(2));
-        System.out.println("4! expected: 24:  + actual: " + MathUtility.getFactorial(2));
-        System.out.println("5! expected: 120:  + actual: " + MathUtility.getFactorial(2));
+        System.out.println("3! expected: 6:  + actual: " + MathUtility.getFactorial(3));
+        System.out.println("4! expected: 24:  + actual: " + MathUtility.getFactorial(4));
+        System.out.println("5! expected: 120:  + actual: " + MathUtility.getFactorial(5));
     }
     //test ham vua go
     //can co test case
